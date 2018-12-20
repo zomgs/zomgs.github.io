@@ -1,0 +1,193 @@
+<<<<<<< HEAD
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name | xml_escape }} - Articles</title>
+    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+    <link>
+    {{ site.url }}</link>
+    {% for post in site.posts %}
+      {% unless post.link %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        {% if post.excerpt %}
+          <description>{{ post.excerpt | xml_escape }}</description>
+        {% else %}
+          <description>{{ post.content | xml_escape }}</description>
+        {% endif %}
+        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>
+        {{ site.url }}{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      </item>
+      {% endunless %}
+    {% endfor %}
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> - Articles</title>
+    <description>Scribbles &amp; Images from the Road</description>
+    <link>
+    </link>
+    
+      
+      <item>
+        <title>North Kalimantan</title>
+        
+          <description>&lt;p&gt;As much as I enjoyed my time in Kalimantan Timur, the island’s Eastern part, it was time to move on. Locals from whence I came, warned there really weren’t a lot of things going on in the North. Spending a week there, those weren’t entirely unfounded claims. At least from a tourist’s set of eyes.&lt;/p&gt;
+
+&lt;p&gt;I’d made contact with a woman up there, willing to meet and help out during my stay there. She was a history teacher, living in Malinau and working in Setulang village, three-quarters ride away. I was told the salary was substantially better out in the districts. She conceded though, that it was tough working out here on her own and that it did take a toll on her emotionally, but claimed that for her, it was a better choice. It allowed her save up and go on her own travels one day.&lt;/p&gt;
+
+&lt;p&gt;Back in Malinau, I was trying to understand better where the hell I had brought myself. While true that there was a whole lot of nothing in this town, there were discoveries to be made and observations to be had.&lt;/p&gt;
+
+&lt;p&gt;A bunch of missionaries has based themselves at the hotel I was staying at. Christian, white ones. Presumably, they also owned the hotel. Grace hotel was its name. Fitting.&lt;/p&gt;
+
+&lt;p&gt;From what I could see, they loved being there. Every moment of it. After all, they were out here doing important work. The work of none other than the God almighty himself. Preaching to unsuspecting people the existence of the legendary figure, sending people to heaven or hell, based on how well they behaved.&lt;/p&gt;
+
+&lt;p&gt;I come across these people and their symbols frequently in these parts and they always pause me to think.&lt;/p&gt;
+
+&lt;p&gt;Later, in the restaurant, a table of 3 next to me. They’re discussing business. Curious to have a white face in their midst, they invite me to come join them. One has thoroughly mastered the English language, having learnt it from an early age. A privilege that can not be understated. They’re discussing mining.&lt;/p&gt;
+
+&lt;p&gt;Soon his friends leave and I’m granted an audience with what strikes me as an important man for the region.&lt;/p&gt;
+
+&lt;p&gt;He’s struck gold, literally. Geologists surveying his land, found it and now he’s working on setting up operations and securing finances, but, it needs to be carried out in secrecy. Mining is political in Kalimantan, as that’s where much power lays and the extension thereof, money. All sorts of shady things happen to make political statements in that regard.&lt;/p&gt;
+
+&lt;p&gt;He gives examples that political entities will sabotage mining operations causing them to leak poison into the rivers, killing downstream marine life and its water drank by people. This, just to create problems for operators somehow working with the wrong side. He brings up Bruno Manser, the Swizz environmentalist who mysteriously disappeared having taunted the Borneo elite for decades. In his view, killed, further making references to The Borneo Case, a documentary putting the spotlight on the crimes committed on this island, where the money went and who was behind.&lt;/p&gt;
+
+&lt;p&gt;In this part of the world, you’re free to do what you want. Rape, pillage and uproot humans, their communities and culture(let’s make no mention of other fauna(or flora)) at your own peril. Just make sure to pay the right people. Stories most of us won’t hear. Even if we did, it wouldn’t have mattered. The story of a rainforest that overnight became a plantation.&lt;/p&gt;
+
+&lt;p&gt;Back in Malinau, I’d been invited to attend an event that consisted of a van full of books and children reading from them. The absence of a library, prompted resourceful community members to come up with this initiative in an attempt to inspire and provide young people an opportunity to become familiar with the world of books. Asked to do an interview, I mumble it’s a good thing they’re working on providing different avenues for children to educate themselves.&lt;/p&gt;
+
+&lt;p&gt;Soon after I leave for Tarakan, capital of the North.&lt;/p&gt;
+</description>
+        
+        <pubDate>Mon, 20 Aug 2018 00:00:00 +0700</pubDate>
+        <link>
+        /north-kalimantan</link>
+        <guid isPermaLink="true">/north-kalimantan</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Backpacking Kalimantan Independently</title>
+        
+          <description>&lt;p&gt;A trip to the Malaysian side of Borneo in June, sparked an interest for this island of human and cultural diversity. Not long after, I was entering the Indonesian side of the island, Kalimantan. Arriving Pontianak with an aim of backpacking the island in its entirety, I soon discovered that travel here is quite different from that of other destinations in South East Asia(SEA)&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-expect-from-kalimantan&quot;&gt;What to expect from Kalimantan&lt;/h2&gt;
+&lt;p&gt;Kalimantan is not a typical destination for the backpackers roaming the region. Perhaps for good reasons. The infrastructure having simplified travel in more traditional SEA destinations is yet to be developed here, and, as far as catering to English speaking travelers’ needs go, the industry has improvements to do. With the exception of some official and tour agencies’ websites, information is hard to come by. Add to that a people struggling with said language, with sights few and far between as well as of things to do, poor road conditions, pollution and a scarcity of online accommodations, it becomes clear why it’s not a hot backpacker destination.&lt;/p&gt;
+
+&lt;p&gt;They have something to make it worthwhile, though. They have people. Utterly great people who will take you on unforgettable adventures.&lt;/p&gt;
+
+&lt;p&gt;As such, the island lends itself as a staging point for adventure travel and getting off the beaten path. A desire for novel experiences, to connect with people, their culture and place in the world ought to be primary reasons for coming here. Kalimantan is also a looking glass into the environmental destruction the world is facing in its quest for resources and profits.&lt;/p&gt;
+
+&lt;p&gt;The island’s greatest asset is its friendly and hospitable people who unlike the Malaysian counterpart have not yet had much exposure to foreign travelers. As such Kalimantan serves as a place for meeting people of different backgrounds, some eager to learn about your world and teach you about theirs. Great place for cultural exchanges, in other words.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-backpack-kalimantan&quot;&gt;How to backpack Kalimantan&lt;/h2&gt;
+&lt;p&gt;A lesser traveled destination, backpacking this island required some adaptations in how I’d usually done my travels in the region. While hostels are commonly the norm for backpackers in the region, this is less often an option for Kalimantan. Hotels serving mostly a domestic business and tourist audience are widely available, but not ideal for a backpackers wanting to socialize. Thus, one needs to become flexible. In my case, flexible meant turning to Couchsurfing.&lt;/p&gt;
+
+&lt;p&gt;Having tried them both during my Kalimantan stay, the best experiences comes from interacting with the locals. For the uninitiated, the prospect of staying with Couchsurfers could be a daunting one. In hindsight, however, the prospect of having backpacked Kalimantan without their aid would be even more so. True, it is exhausting to immerse oneself to a different culture, but, if easy is your goal you wouldn’t be coming here.&lt;/p&gt;
+
+&lt;p&gt;An active and energetic Couchsurfing scene exists in Kalimantan, ready to take you in and show you what they’re about.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 08 Aug 2018 00:00:00 +0700</pubDate>
+        <link>
+        /backpacking-kalimantan-timur-independently</link>
+        <guid isPermaLink="true">/backpacking-kalimantan-timur-independently</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>ERAU Festival in Tenggarong 2018, Kalimantan Timur</title>
+        
+          <description>&lt;h2 id=&quot;visiting-the-erau-festival-in-tenggarong-kalimantan-timur&quot;&gt;Visiting the ERAU festival in Tenggarong, Kalimantan Timur&lt;/h2&gt;
+&lt;p&gt;I’d heard of a UNESCO endorsed festival coming up, in the eastern parts of Kalimantan and was on my way there to find out what it was about. Little information was available online, but I had been able to gather it was a week-long festival featuring folk costumes, music, and dances. A true cultural festival and a big one at it, if rumours were to be believed.&lt;/p&gt;
+
+&lt;p&gt;I had noticed through advertising on my flight to Kalimantan that Tenggarong was trying to establish itself as a tourist destination. Having arrived town, it was possible to see how. Although, they appeared to be targeting a domestic audience. A western traveler would probably have found the whole place a little underwhelming. I wasn’t there to be overwhelmed by grandiosity however, I was simply there to attend their festival and get a glimpse into the culture this festival could offer.&lt;/p&gt;
+
+&lt;p&gt;During the performances, it was possible to gain an insight into the differing group’s culture. Particularly of interest to me, was how the Western performances compared to the Indonesian ones. A few European groups had ventured all the way to Tenggarong in an attempt to display their culture to the local audience. Even for an individual as uninformed in these matters, the contrasts between the two worlds were noticeable the. While I’m not one to elaborate on the differences, it seemed clear that these worlds were eons apart. Fascinating to say the least.&lt;/p&gt;
+
+&lt;p&gt;As a paled skinned man in these parts, I was sure to draw a lot of attention. Undeservedly, it elevates my status in this society. I’m suddenly an elite member, and, as I’ve come to learn, that brings about certain additional privileges. Elite in this society happen to be those having positions in the government. Or, own a coal mine. During the entirety of the festival, members of the government were given priority seating and had an excellent vantage point on the festivities. The plebs however, were asked to sit elsewhere. Preferably far away. It was interesting to observe how blatant this separation between government and ordinary people was. I was at times appalled due my beliefs in equality. The pale skin gave similar advantages and when asked to join the VIP arena, I wasn’t about to say no. Quite selfish, I know, but what can I do? To change this phenomena? Besides, I wanted to shoot some pictures.&lt;/p&gt;
+
+&lt;p&gt;Tenggarong, along with Balikapan, was one of the prettier places I visited in Kalimantan. It was noticeable how they’ve been trying to carve out their own place in the world of tourism. It was impressive how the community had been working together to arrange a free festival for everybody to join, or,  as one of their slogans read; “creating something out of nothing”. Indeed they had created something out of nothing. Just next year, I hope they make this place a little more accessible through more information in the English language.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 25 Jul 2018 00:00:00 +0700</pubDate>
+        <link>
+        /erau-festival-tenggarong-kalimantan-timur</link>
+        <guid isPermaLink="true">/erau-festival-tenggarong-kalimantan-timur</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Backpacking Balikpapan</title>
+        
+          <description>&lt;p&gt;Returning to Balikpapan, I had already been here a few times in transit. This time with the intention of spending a couple of nights. As I discovered, this was rather backpacker friendly destination. Maybe not in the traditional sense, but in the sense that there’s an incredibly strong and coordinated Couchsurfing community here, excited to take you in to travel with and show you what they’re about.&lt;/p&gt;
+
+&lt;p&gt;Maybe not a spectacular city, it was however, one of the prettier I saw backpacking Kalimantan. It was almost as if they cared a little bit more about their environment, at least more so than elsewhere. Pollution was less rampant, traffic less congested and with even a cleaner smell. The architecture was some places a step up from the usual patchwork of brick and concrete buildings erected as soon they could be afforded. Parts of the city could probably be accused of being charming, with a myriad of concept cafes and restos having come up in more popular areas.&lt;/p&gt;
+
+&lt;h2 id=&quot;crocodile-zoo&quot;&gt;Crocodile zoo&lt;/h2&gt;
+&lt;p&gt;Of sights, there are a few. I checked some of them out.&lt;/p&gt;
+
+&lt;p&gt;A visit to the crocodile zoo, commonly encountered in South-East Asia, I avoid these places like the plague. This time I made an exception, for no reason other than wanting to know how bad it was. The moment I set foot in there, I had my answer. Not only was it bad. It was worse than worst. Since we had already ridden out there, I first found myself accepting a discriminatory foreigner price charged on entry. Verily, it would have brought more pleasure to watch my money burn than paying this insidious foreigner price. Sadly, a common phenomena in these parts of the world.&lt;/p&gt;
+
+&lt;p&gt;A farm with crocs. Hundreds of them. Maybe farm is not the right way to put it. It was more like crappy crocodile village. Some living in crap conditions, others in crappier. On the outside they were serving crocodile delicacies for our consumption. Croco sate, croco rice, croco with whatever you want. I was fed up and wanted to get the hell out of there and that’s what we did.&lt;/p&gt;
+
+&lt;h2 id=&quot;bukit-bangkirai&quot;&gt;Bukit bangkirai&lt;/h2&gt;
+&lt;p&gt;Not far away from the zoo, Samboja lodge could be found. An Oranghutan shelter, working to rescue and rehabilitate animals having lost their homes as the habitat they once inhabited disappeared due to the widespread logging. Having previously met and conversed with a member of their team in Bukit bangkirai, there was a desire to visit,  but held back by other engagements, I didn’t get the opportunity to stop by.&lt;/p&gt;
+
+&lt;p&gt;The canopy in Bukit bangkirai was another disappointment. In large due to their charging a stupendous amount for foreigner entry. It’s not that it’s unormal to be charged more as a foreigner, it’s that it ruins the experience. Many I’ve spoken to, accept this kind of treatment, but I’m not sure they fully understand how they’re being treated. Whoever said the world is full of suckers, probably got something right. In any case, it didn’t make me feel very welcome.&lt;/p&gt;
+
+&lt;p&gt;The canopy was a sorry attempt to call themselves a tourist attraction. A staircase leading up the two trees, walk the canopy and look at the view. A view that was utterly unimpressive. I didn’t mention the hour long, ardent roads you’ve to put up with too get here. Why locals bother to come here, will remain a mystery. A big tourist trap as far as I could tell.&lt;/p&gt;
+
+&lt;p&gt;So while there may not be many things to do that are worthwhile, one needs to allow for the alternative of meeting up with the local community. More options become available through them… and we ended up having good times, exchanging&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 05 Jul 2018 00:00:00 +0700</pubDate>
+        <link>
+        /backpacking-balikpapan-independently</link>
+        <guid isPermaLink="true">/backpacking-balikpapan-independently</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Dayak Festival and Adventure in Tanjung Isuy</title>
+        
+          <description>&lt;h2 id=&quot;road-trip-to-tanjung-isuy&quot;&gt;Road Trip to Tanjung Isuy&lt;/h2&gt;
+&lt;p&gt;Word was out, a festival underway, by the Dayaks, drawing me on road trip to the interiors of Kalimantan along with my newfound friends from Samarinda. Name of the village Tanjung isuy, right on Borneo’s biggest lakes and a famed home of the region’s indigenous people, the Dayaks, referring to the native people of Borneo.&lt;/p&gt;
+
+&lt;p&gt;Six hours of nonstop motorcycle riding on, by anyone’s standards, horrendous roads, was needed to get there. Potholes designed to kill any vehicle coming in its vicinity, didn’t deter my female travel companions however. Not a bit. They were tougher than nails and more fearless than man. Indeed, they were racing these roads like there wasn’t a tomorrow. In case you’re wondering what crushed glutes feel like, these roads will teach you.&lt;/p&gt;
+
+&lt;p&gt;Later, I, of course, learn it’s possible to access these villages using river transport. Perhaps it would have made for a more comfortable experience, but what’s an adventure without discomfort? Besides, bikes gave the flexibility to do our own day trips.&lt;/p&gt;
+
+&lt;h2 id=&quot;festival-budaya-in-tanjung-isuy&quot;&gt;Festival Budaya in Tanjung Isuy&lt;/h2&gt;
+&lt;p&gt;The festival itself attracted many local as well as visitors from neighboring population centers, such as Samarinda. As far as foreigners go, I was the only one there. Unsurprisingly, becoming quite an attraction myself. Indeed, I was informed, my mere presence had added to the festival’s overall glamor and credibility. Me, adding to an event’s success? What a joke. But such becomes the privilege of fair skin and non-black hair in these parts of the world. There is an inexplicable reverence for us.
+As for my impressions of the festival, it showcased the cultural elements I’d come for in the first place. Folk costumes, dances, and artwork on display. The onstage performances was a little loud for my liking and could need improvements. Most importantly, to inform these people they need to be more mindful of their ears. Louder is not better. For some reason, the organizers thought louder was cooler. Tinnitus is not cool, however, so I was never able to stay for long.&lt;/p&gt;
+
+&lt;h2 id=&quot;exploring-surrounding-villages-tanjung-jan-and-pulau-lanting&quot;&gt;Exploring surrounding villages, Tanjung Jan and Pulau Lanting&lt;/h2&gt;
+&lt;p&gt;In addition to the festival itself, it’s also possible to explore the surrounding areas. The lake complex is home to multiple villages, most of whom can not be accessed by roads and require some kind of water transport. Not yet having found someone to transport us, we explore the roads on motorbikes, checking out the villages that were connected. It was nice to walk in the surroundings and for the most part, the added attention my skin brings is amusing and tolerable, but after a while it risks becoming exhausting. I get the celebrity experience, without being an actual celibrity.&lt;/p&gt;
+
+&lt;h2 id=&quot;tanjung-jone&quot;&gt;Tanjung Jone&lt;/h2&gt;
+&lt;p&gt;The next day, my resourceful travel companions had succeeded in finding a boat that could take us on the lake to explore the further away villages. A fisherman is willing to take us to Tanjung Jone, a village, as we learn, inhabited by people from the island Sulawesi. An island quite a bit away from here. I’m told they settled down in this remote place about three generations ago and survived by the opportunities granted to them by the river and the lake.&lt;/p&gt;
+
+&lt;p&gt;Walking through the village, we come across a woman sitting by her still-to-be erected home. She estimates it will be another 4 years until completion. Her husband earns 50 000 rupiah a day fishing, a little less than $4. The villagers will help in the construction of her home, but material costs will still need to be accounted for. She explains one-hundred-million rupiah, or about $7000, is needed. For now she’s residing in a home that’s about to fall apart.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 17:00:00 +0700</pubDate>
+        <link>
+        /adventures-festival-tanjung-isuy</link>
+        <guid isPermaLink="true">/adventures-festival-tanjung-isuy</guid>
+      </item>
+      
+    
+>>>>>>> ca32d8cfb2780e48467d3d682c0aada5de97e40a
+  </channel>
+</rss>
