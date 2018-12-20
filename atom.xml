@@ -1,38 +1,196 @@
-<<<<<<< HEAD
----
-layout: null
----
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.name | xml_escape }} - Articles</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>
-    {{ site.url }}</link>
-    {% for post in site.posts %}
-      {% unless post.link %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>
-        {{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-      </item>
-      {% endunless %}
-    {% endfor %}
-=======
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> - Articles</title>
     <description>Scribbles &amp; Images from the Road</description>
     <link>
-    </link>
+    http://localhost:4000</link>
+    
+      
+      <item>
+        <title>30 days in Sri Lanka</title>
+        
+          <description>&lt;h2 id=&quot;30-days-in-lanka-itinerary&quot;&gt;30 days in Lanka. Itinerary.&lt;/h2&gt;
+
+&lt;p&gt;Sri Lanka, previously known as Ceylon and a Portuguese, Dutch and British colony before it fell into the hands of the island’s majority group, the Sinhalese, some 7 decades ago, in 1948. Today the political situation is messy, having recently wrapped up a civil war and with young people emigrating. That said, the tourists come greater by the numbers every year.&lt;/p&gt;
+
+&lt;p&gt;Together with Sabrina, a digital nomad whom I had traveled with earlier, we ventured to backpack the island for the 30 days stay our visas allowed. Here’s the itinerary!&lt;/p&gt;
+
+&lt;div class=&quot;toc&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#30-days-in-lanka-itinerary&quot;&gt;30 days in Lanka. Itinerary.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#colombo&quot;&gt;Colombo&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#train-from-colombo-to-the-south&quot;&gt;Train from Colombo to the South&lt;/a&gt;&lt;/li&gt;  
+    &lt;li&gt;&lt;a href=&quot;#the-south-galle-unawatuna-waligama-mirissa-dikwella&quot;&gt;The South, Galle, Unawatuna, Waligama, Mirissa, Dikwella&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#how-to-get-to-ella-from-mirissa-by-bus&quot;&gt;How to get to Ella from Mirissa by bus&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#the-highlands-ella-nuwara-eliya-and-kandy&quot;&gt;The highlands, Ella, Nuwara Eliya and Kandy&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#bus-from-kandy-to-dambulla&quot;&gt;Bus from Kandy to Dambulla.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#north-central--the-cultural-triangle-dambulla-sigiriya-anaradahapura&quot;&gt;North Central / The cultural triangle, Dambulla, Sigiriya, anaradahapura.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#the-bus-from-dambulla-to-anuradhapura&quot;&gt;The bus from Dambulla to Anuradhapura.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#the-train-from-anuradhapura-to-jaffna&quot;&gt;The train from Anuradhapura to Jaffna&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#exploring-jaffna-and-the-north&quot;&gt;Exploring Jaffna and the north&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#the-bus-from-jaffna-to-kalpitiya&quot;&gt;The bus from Jaffna to Kalpitiya&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#the-western-beaches-kalpitiya&quot;&gt;The western beaches, Kalpitiya.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#nature-reserves&quot;&gt;Nature reserves.&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#final-thoughts&quot;&gt;Final thoughts.&lt;/a&gt;”&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://drive.google.com/open?id=1gO5iScW_-CqvnwoVIhM8aylZlqe2jTYV&amp;amp;usp=sharing&quot;&gt;Check this link for the Google map&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;airport-to-colombo&quot;&gt;Airport to Colombo&lt;/h2&gt;
+
+&lt;p&gt;We made our first stop in Colombo, the capital. Travelers usually skip Colombo in favor of the much smaller, less polluted Negombo that’s been developed more for tourism. Pick up a SIM card from Dialog and Mobitel after arrival. From Bandaranaike, the airport, take the bus or hire a private vehicle. The about 1 hour tuk-tuk ride was LKR 1500. Use PickMe, the Sri Lankan taxi app to get the local fare prices. The bus fare was significantly less.&lt;/p&gt;
+
+&lt;p&gt;Truth be told, the capital may have little to offer from a tourist’s point of view, but Negombo is hardly much better with its touts and tourist prices. If time is not critical, a day could easily be spent sightseeing Colombo in a tuk-tuk. $10 and there-about were oft-quoted prices. Additionally, taking the South- and Eastbound train is more convenient from Colombo than Negombo.&lt;/p&gt;
+
+&lt;p&gt;In Colombo, we had arrived amidst a long-standing political debacle. A Prime Minister being unconstitutionally ousted, plots unraveling to have a president assassinated and politicians fist fighting in parliament were stories related to us.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/buddha.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/buddha.jpg 480w,    /assets/resized/800/buddha.jpg 800w, /assets/images/lanka/buddha.jpg 1000w&quot; /&gt;
+&lt;figcaption&gt;Buddhism is the dominant relgion on most of the island. Seema Malaka, a small temple in Colombo&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;train-from-colombo-to-mirissa&quot;&gt;Train from Colombo to Mirissa&lt;/h2&gt;
+&lt;p&gt;Getting on the morning train from Colombo was refreshingly straightforward. Show up at Fort Colombo, half an hour before departure and get the desired ticket. Although the official Sri Lanka railway website list only 2nd and 3rd, there is infact an observation deck available for the morning train. albeit at a much elevated price. For our particular Colombo to Mirissa ride, the first class ticket was probably not needed. A similar experience would have been possible in the 2nd class carriages as well. This was not true for our ride from Nuwara Eliya to Kandy, however, where we found ourselves regretting not getting the reserved carriage.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/fort-colombo.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/fort-colombo.jpg 480w,    /assets/resized/800/fort-colombo.jpg 800w, /assets/images/lanka/fort-colombo.jpg 1000w&quot; /&gt;
+&lt;figcaption&gt;Mornig train @ Fort Colombo station &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-south-galle-unawatuna-waligama-mirissa-dikwella&quot;&gt;The South; Galle, Unawatuna, Waligama, Mirissa, Dikwella&lt;/h2&gt;
+&lt;p&gt;Many popular destinations are found on the island’s southern parts; the part simply referred to as The South and home to many of the country’s beaches. People interested in snorkeling, surfing, yoga, relaxing and even partying are almost sure to have their needs met her.&lt;/p&gt;
+
+&lt;p&gt;In our own case, we settled at Mirissa Beach which already had a good reputation among travelers we hd met, and bloggers alike. Indeed, we found the location agreeable as well; not just because of the beach’ overall atmosphere but also for its location that allowed for day trips in either direction, towards Galle or Matara and the beaches en route. (insert map).&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/palm-tree-hill.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/palm-tree-hill.jpg 480w, /assets/images/lanka/palm-tree-hill.jpg 800w&quot; /&gt;
+&lt;figcaption&gt;Popular photo spot in Mirissa&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Scooter and other vehicles could be rented for 1000 LKR(less than $6) a day. Riding on the back roads made for scenic and enjoyable experiences while the main roads less so. Always avoid the main roads when you can! (insert road pic)&lt;/p&gt;
+
+&lt;h2 id=&quot;bus-from-mirissa-to-ella&quot;&gt;Bus from Mirissa to Ella&lt;/h2&gt;
+
+&lt;p&gt;There is no direct bus from Mirissa to Ella. We first  took the bus from Mirissa to Matara bus Station. It left frequently.&lt;/p&gt;
+
+&lt;p&gt;From Matara, bus 31, 31-1 and 31-2 departed multiple times daily. We took bus 31 to Bandarawela, departing 9:50 in the morning. The ride took about 5 hours and included a midwy break.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-highlands-ella-nuwara-eliya-and-kandy&quot;&gt;The Highlands; Ella, Nuwara Eliya and Kandy&lt;/h2&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/little-adam.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/little-adam.jpg 480w,    /assets/resized/800/little-adam.jpg 800w, /assets/images/lanka/little-adam.jpg 1000w&quot; /&gt;
+&lt;figcaption&gt;Ella's main attraction, Little Adam's peak&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We stayed in Ella, Nuwara Eliya and Kandy. A more popular route is to go in the reverse direction; from Kandy to Ella. That way, the beaches come at the trip’s end. Since we were heading north, that was not an option for us. To be sure, the train ride was interesting. On the leg from Ella to Nuwara Eliya, we run into misty weather, creating sort of a mystical and spooky atmosphere. The weather was brighter on the leg from Nuwara Eliya to Kandy, however. We found the general highland weather to be more volatile than we liked and in spite of us following the weather forecasts, planning sometimes became impossible.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/nine-arches-bridge.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/nine-arches-bridge.jpg 480w, /assets/images/lanka/nine-arches-bridge.jpg 800w&quot; /&gt;
+&lt;figcaption&gt;Nine arches bridge, Ella&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;All these towns hd their own set of peculiarities, but of the three, Ella was most promising, Kandy decidedly most disappointing and Nuwara Eliya something in between. Why Kandy received so much praise, I could not understand.&lt;/p&gt;
+
+&lt;p&gt;Usual activities in this area, include the Kandy-to-Ella train ride,(nd the reverse direction) and hiking activities to scenic peaks and sights, in addition to tea plantation visits.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/tunnel.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/tunnel.jpg 480w,    /assets/resized/800/tunnel.jpg 800w, /assets/images/lanka/tunnel.jpg 1000w&quot; /&gt;
+&lt;figcaption&gt;Taking shelter from the rain that never stopped. also, Hiking on the tracks is a popular activity in Ell.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;bus-from-kandy-to-dambulla&quot;&gt;Bus from Kandy to Dambulla.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;http://thebakersjourney.com/kandy-dambulla-air-conditioned-bus/&quot;&gt;TheBakersJourney&lt;/a&gt; made a post on how to go about taking the bus from Kandy to Dambulla.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Essentially, the Kandy to Dambulla bus leaves several times an hour, including ones with air-conditioning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Show up at the bus station and ask for Dambulla and you’ll be pointed in the right direction. The ride is 2 hours. The air-conditioned bus costs less than 200.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;north-central--the-cultural-triangle-dambulla-sigiriya-anaradahapura&quot;&gt;North Central / The cultural triangle, Dambulla, Sigiriya, Anaradahapura.&lt;/h2&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/stupa.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/stupa.jpg 480w, /assets/images/lanka/stupa.jpg 800w&quot; /&gt;
+&lt;figcaption&gt;“Giant&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Dambulla, a town with almost nothing, except for maybe the Dambulla Cave tourist trap, was our staging point used to access the peaks in Sigiriya; the iconic Lion Rock and the cheaper Pidurangal. Habarana which is connected by the railway might very well have be a more practical staging point; not only for exploring Sigiriya, but also for other sites on the Cultural Triangle, such as Anuradhapura and Polonnaruwa.&lt;/p&gt;
+
+&lt;p&gt;In the time before European colonization, Sri Lanka had had a life on its own with its own kings and religion, and a civilization capable of leaving architectural remnants behind. Initially intrigued to learn more about the island’s history, the intrigue somewhat faded as it became clear that these sites also act more like tourist traps than places to learn.&lt;/p&gt;
+
+&lt;p&gt;Anuradhapura, Polonnaruwa, and Sigiriya, each came with a $25 entry and would require a guide for it to be truly worthwhile. Little signage, museums not worthy the name and guards repeatedly asking to see your tickets, didn’t help on those feelings. Backpackers on a budget and those conscious of where their money, might find the investment hard to justify. Value had compared to value given doesn’t match.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/lion-rock.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/lion-rock.jpg 480w, /assets/images/lanka/lion-rock.jpg 800w&quot; /&gt;
+&lt;figcaption&gt;view of Lion Rock, Sigiriya&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My companion pointed out it wouldn’t be right just to rush through the region and skip everything., so in the end, we went with a dumbed down version to our original plans, skipping Polonnaruwa and seeing Sigiriya and Anuradhapura unguided.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-bus-from-dambulla-to-anuradhapura&quot;&gt;The bus from Dambulla to Anuradhapura.&lt;/h2&gt;
+&lt;p&gt;Just show up at the right bus stop and you’ll soon be in your way. Departs frequently. We got on from this stop&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8159097.348826552!2d68.757934525!3d3.112098250000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smv!4v1544453585656&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;train-from-anuradhapura-to-jaffna&quot;&gt;Train from Anuradhapura to Jaffna&lt;/h2&gt;
+
+&lt;p&gt;From Anuradhapura, we got on the morning train to Jaffna. Only first-class carriages were available. 1100 LKR. The train from Anuradhapura to Jaffna departs from this station.&lt;/p&gt;
+
+&lt;h2 id=&quot;exploring-jaffna-and-the-north&quot;&gt;Exploring Jaffna and the north&lt;/h2&gt;
+
+&lt;p&gt;Jaffna and the north had been an anticipated highlight since the journey’s beginning. The north is skipped by most travelers who instead choose to more accessible destinations on the island. For us however, it was an exciting opportunity to get off the beaten path and explore the different Hindu dominated side of the country.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/temple-girl.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/temple-girl.jpg 480w, /assets/images/lanka/temple-girl.jpg 800w&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;While most of Lanka is inhabited by the Buddhist Sinhalese, the north is mostly populated by the Hindu Tamils. It was in this region much of the civil war took place. In short, the Sri Lankan Tamils endured Sinhalese instigated pogroms that culminated eventually into a grueling and decades-long civil war with casualties reaching a hundred thousand. Today, while the war is over, Tamils continue living a life in oppression.&lt;/p&gt;
+
+&lt;p&gt;Jaffna and the north was a welcome change and break from touts and the general hustle and bustle further south. While the  infrastructure was less developed, we found an exemplary host in the guest house we chose for our stay. We mostly spent our time exploring the region on a rented scooter. See here for routes.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/sunset.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/sunset.jpg 480w, /assets/images/lanka/sunset.jpg 800w&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-bus-from-jaffna-to-kalpitiya&quot;&gt;The bus from Jaffna to Kalpitiya&lt;/h2&gt;
+
+&lt;p&gt;We showed up&lt;/p&gt;
+
+&lt;h2 id=&quot;the-western-beaches-kalpitiya&quot;&gt;The western beaches, Kalpitiya.&lt;/h2&gt;
+
+&lt;p&gt;Kalpitiya was an anonymous town with almost nothing in it for the tourists. The surrounding beach areas are popular with the kite surfers however and indeed the region was geared towards watersports and kitesurfing activities. A good range of generally steeper priced accommodations are available. Unless you’re looking to kitesurf or just want to relax, I would question whether coming out here is worth it or not. That said, we came in the off-season and had a relaxing time.&lt;/p&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/lanka/kalpitiya.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/kalpitiya.jpg 480w, /assets/images/lanka/kalpitiya.jpg 667w&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Having come into Colombo on arrival, it made sense to hit up Negombo for our departure. Indeed, Colombo may have had its aforementioned disadvantages, but  Negombo was not without its faults. Apparently, being the start and stop point for the journey of visitors in this country come with a host of consequences. Most annoying perhaps was not being left alone.&lt;/p&gt;
+
+&lt;h2 id=&quot;national-parks&quot;&gt;National parks.&lt;/h2&gt;
+
+&lt;p&gt;Often on our minds as we made our way through the country, was the question of whether to visit any of the national parks; now very popular among the tourists. Elephants &amp;amp; leopards might be their top draws, but there is also other wildlife on offer. We skipped them entirely. Many of the parks are really popular and one should expect polluting jeeps driving in columns, competing for space. If that’s your thing,&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts.&lt;/h2&gt;
+
+&lt;p&gt;Admittedly, we moved slowly, in a relaxed pace. Had we wanted to and moved faster, more ground could have been covered. For example, we could have aimed for Trincomlee, Batticaloa and Arugam Bay.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 01 Nov 2018 17:00:00 +0700</pubDate>
+        <link>
+        http://localhost:4000/sri-lanka-itinerary</link>
+        <guid isPermaLink="true">http://localhost:4000/sri-lanka-itinerary</guid>
+      </item>
+      
     
       
       <item>
@@ -67,8 +225,8 @@ layout: null
         
         <pubDate>Mon, 20 Aug 2018 00:00:00 +0700</pubDate>
         <link>
-        /north-kalimantan</link>
-        <guid isPermaLink="true">/north-kalimantan</guid>
+        http://localhost:4000/north-kalimantan</link>
+        <guid isPermaLink="true">http://localhost:4000/north-kalimantan</guid>
       </item>
       
     
@@ -97,8 +255,8 @@ layout: null
         
         <pubDate>Wed, 08 Aug 2018 00:00:00 +0700</pubDate>
         <link>
-        /backpacking-kalimantan-timur-independently</link>
-        <guid isPermaLink="true">/backpacking-kalimantan-timur-independently</guid>
+        http://localhost:4000/backpacking-kalimantan-timur-independently</link>
+        <guid isPermaLink="true">http://localhost:4000/backpacking-kalimantan-timur-independently</guid>
       </item>
       
     
@@ -120,8 +278,8 @@ layout: null
         
         <pubDate>Wed, 25 Jul 2018 00:00:00 +0700</pubDate>
         <link>
-        /erau-festival-tenggarong-kalimantan-timur</link>
-        <guid isPermaLink="true">/erau-festival-tenggarong-kalimantan-timur</guid>
+        http://localhost:4000/erau-festival-tenggarong-kalimantan-timur</link>
+        <guid isPermaLink="true">http://localhost:4000/erau-festival-tenggarong-kalimantan-timur</guid>
       </item>
       
     
@@ -152,42 +310,442 @@ layout: null
         
         <pubDate>Thu, 05 Jul 2018 00:00:00 +0700</pubDate>
         <link>
-        /backpacking-balikpapan-independently</link>
-        <guid isPermaLink="true">/backpacking-balikpapan-independently</guid>
+        http://localhost:4000/backpacking-balikpapan-independently</link>
+        <guid isPermaLink="true">http://localhost:4000/backpacking-balikpapan-independently</guid>
       </item>
       
     
       
       <item>
-        <title>Dayak Festival and Adventure in Tanjung Isuy</title>
+        <title>Samarinda</title>
         
-          <description>&lt;h2 id=&quot;road-trip-to-tanjung-isuy&quot;&gt;Road Trip to Tanjung Isuy&lt;/h2&gt;
-&lt;p&gt;Word was out, a festival underway, by the Dayaks, drawing me on road trip to the interiors of Kalimantan along with my newfound friends from Samarinda. Name of the village Tanjung isuy, right on Borneo’s biggest lakes and a famed home of the region’s indigenous people, the Dayaks, referring to the native people of Borneo.&lt;/p&gt;
+          <description>&lt;p&gt;Having flown into Pontianak a few days prior, greeted by a visible and foul smelling smog, I was was not sure what expected me in Samarinda. I was on my way there to attend a festival that was being put up in the neighbouring town, Tenggarong.&lt;/p&gt;
 
-&lt;p&gt;Six hours of nonstop motorcycle riding on, by anyone’s standards, horrendous roads, was needed to get there. Potholes designed to kill any vehicle coming in its vicinity, didn’t deter my female travel companions however. Not a bit. They were tougher than nails and more fearless than man. Indeed, they were racing these roads like there wasn’t a tomorrow. In case you’re wondering what crushed glutes feel like, these roads will teach you.&lt;/p&gt;
+&lt;p&gt;I’d gotten in touch with a Samarindan woman whom had agreed to host and guide me during the festivities. A young, open-minded and curious Muslim wanting to gain more experience with the outside world. Recently graduated as a nurse, she was an informed member and part of a reasonably conservative community, giving me an opportunity of cultural exchanges.&lt;/p&gt;
 
-&lt;p&gt;Later, I, of course, learn it’s possible to access these villages using river transport. Perhaps it would have made for a more comfortable experience, but what’s an adventure without discomfort? Besides, bikes gave the flexibility to do our own day trips.&lt;/p&gt;
-
-&lt;h2 id=&quot;festival-budaya-in-tanjung-isuy&quot;&gt;Festival Budaya in Tanjung Isuy&lt;/h2&gt;
-&lt;p&gt;The festival itself attracted many local as well as visitors from neighboring population centers, such as Samarinda. As far as foreigners go, I was the only one there. Unsurprisingly, becoming quite an attraction myself. Indeed, I was informed, my mere presence had added to the festival’s overall glamor and credibility. Me, adding to an event’s success? What a joke. But such becomes the privilege of fair skin and non-black hair in these parts of the world. There is an inexplicable reverence for us.
-As for my impressions of the festival, it showcased the cultural elements I’d come for in the first place. Folk costumes, dances, and artwork on display. The onstage performances was a little loud for my liking and could need improvements. Most importantly, to inform these people they need to be more mindful of their ears. Louder is not better. For some reason, the organizers thought louder was cooler. Tinnitus is not cool, however, so I was never able to stay for long.&lt;/p&gt;
-
-&lt;h2 id=&quot;exploring-surrounding-villages-tanjung-jan-and-pulau-lanting&quot;&gt;Exploring surrounding villages, Tanjung Jan and Pulau Lanting&lt;/h2&gt;
-&lt;p&gt;In addition to the festival itself, it’s also possible to explore the surrounding areas. The lake complex is home to multiple villages, most of whom can not be accessed by roads and require some kind of water transport. Not yet having found someone to transport us, we explore the roads on motorbikes, checking out the villages that were connected. It was nice to walk in the surroundings and for the most part, the added attention my skin brings is amusing and tolerable, but after a while it risks becoming exhausting. I get the celebrity experience, without being an actual celibrity.&lt;/p&gt;
-
-&lt;h2 id=&quot;tanjung-jone&quot;&gt;Tanjung Jone&lt;/h2&gt;
-&lt;p&gt;The next day, my resourceful travel companions had succeeded in finding a boat that could take us on the lake to explore the further away villages. A fisherman is willing to take us to Tanjung Jone, a village, as we learn, inhabited by people from the island Sulawesi. An island quite a bit away from here. I’m told they settled down in this remote place about three generations ago and survived by the opportunities granted to them by the river and the lake.&lt;/p&gt;
-
-&lt;p&gt;Walking through the village, we come across a woman sitting by her still-to-be erected home. She estimates it will be another 4 years until completion. Her husband earns 50 000 rupiah a day fishing, a little less than $4. The villagers will help in the construction of her home, but material costs will still need to be accounted for. She explains one-hundred-million rupiah, or about $7000, is needed. For now she’s residing in a home that’s about to fall apart.&lt;/p&gt;
+&lt;p&gt;Cultural exchanges are not easy. It’s exhausting to put oneself in the shoes of an entirely different culture.&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 27 Jul 2017 17:00:00 +0700</pubDate>
         <link>
-        /adventures-festival-tanjung-isuy</link>
-        <guid isPermaLink="true">/adventures-festival-tanjung-isuy</guid>
+        http://localhost:4000/samarinda</link>
+        <guid isPermaLink="true">http://localhost:4000/samarinda</guid>
       </item>
       
     
->>>>>>> ca32d8cfb2780e48467d3d682c0aada5de97e40a
+      
+      <item>
+        <title>Dayak Festival and Adventures in Tanjung Isuy</title>
+        
+          <description>&lt;h2 id=&quot;road-trip-to-tanjung-isuy&quot;&gt;Road Trip to Tanjung Isuy&lt;/h2&gt;
+&lt;p&gt;Word was out, a festival underway, by the Dayaks, drawing me on road trip to the Kalimantan interiors along with my newfound friends from Samarinda. Name of village Tanjung isuy, right on Borneo’s biggest lakes and a famed home to the native people of Borneo, referred to as the Dayaks.&lt;/p&gt;
+
+&lt;p&gt;Six hours of nonstop motorcycle riding on horrendous roads, was needed to get there. Potholes killing vehicles coming in its vicinity, didn’t deter my female travel companions however. Not in the slightest. These Kalimantan women were tougher than nails and more fearless than men. Indeed, they were racing these roads like there wasn’t going to be a tomorrow.&lt;/p&gt;
+
+&lt;p&gt;I learned that day what utterly crushed glutes feel like.&lt;/p&gt;
+
+&lt;p&gt;Later, I also learn it’s possible to access these villages using river transport. Tt would have made for a more comfortable experience, but what’s adventure without discomfort?&lt;/p&gt;
+
+&lt;p&gt;Besides, bikes gave the flexibility to do our own day trips.&lt;/p&gt;
+
+&lt;h2 id=&quot;festival-budaya-in-tanjung-isuyv&quot;&gt;Festival Budaya in Tanjung Isuyv&lt;/h2&gt;
+&lt;p&gt;The festival itself had attracted many a local as well as visitors from the neighboring population centers, such as Samarinda. As foreigners are concerned, I was the only one there. Unsurprisingly, becoming quite an attraction myself. Indeed, I was informed, my mere presence had added to the festival’s overall glamor and credibility. Me, adding to an event’s success? What a joke. But such becomes the privilege of fair skin and non-black hair in these parts of the world. There is an inexplicable reverence for it.&lt;/p&gt;
+
+&lt;p&gt;The festival, it showcased the cultural elements I’d come for in the first place. Folk costumes, dances, and artwork on display. The onstage performances was a little loud for my liking and could need some improvements for next year. Most importantly, to inform these people they need to be more mindful of their ears. Louder is not better and tinnitus is not cool.&lt;/p&gt;
+
+&lt;h2 id=&quot;exploring-surrounding-villages-tanjung-jan-and-pulau-lanting&quot;&gt;Exploring surrounding villages, Tanjung Jan and Pulau Lanting&lt;/h2&gt;
+&lt;p&gt;In addition to attending the festival, we opted to go on side adventures and explore the surrounding areas. The lake complex is home to numerous villages, most of whom are inaccessible by roads and require some kind of water transport. Not yet having found someone to take us on the lake, we explore the existing roads on motorbikes, checking out the villages that were connected.&lt;/p&gt;
+
+&lt;p&gt;It was nice to walk in the surroundings and for the most part, the added attention my skin brings is amusing and tolerable, but after a while it risks becoming exhausting. I get the celebrity experience, without being an actual celebrity.&lt;/p&gt;
+
+&lt;h2 id=&quot;tanjung-jone&quot;&gt;Tanjung Jone&lt;/h2&gt;
+
+&lt;figure class=&quot;cap&quot;&gt;
+&lt;img src=&quot;/assets/images/tanjung/church.jpg&quot; alt=&quot;&quot; srcset=&quot;    /assets/resized/480/church.jpg 480w,    /assets/resized/800/church.jpg 800w, /assets/images/tanjung/church.jpg 1000w&quot; /&gt;
+&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/adolescent dayak.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/adolescent dayak.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/bridge tanjung.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/bridge tanjung.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/children tanjung jone.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/children tanjung jone.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/children tanjung lake.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/children tanjung lake.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/church.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/church.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/dayak men marching.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/dayak men marching.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/experienced rider.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/experienced rider.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/home on lake.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/home on lake.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/kite.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/kite.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/muslim dayak longhouse.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/muslim dayak longhouse.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+        &lt;a data-fancybox=&quot;gallery&quot; href=&quot;/assets/images/tanjung/woman waiting.jpg&quot;&gt;
+        &lt;img src=&quot;/assets/images/tanjung/woman waiting.jpg&quot; /&gt;&lt;/a&gt;
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+&lt;/p&gt;
+
+&lt;p&gt;The next day, my resourceful travel companions succeeded in finding a boat that could take us on to the lake. A fisherman is willing to take us to Tanjung Jone, a village, as we learn, inhabited by people from the island Sulawesi. An island quite a stretch away from here. I’m told they settled down in this remote place about three generations ago and had survived by the opportunities granted to them by the river and the lake.&lt;/p&gt;
+
+&lt;p&gt;Walking through the village, we come across a woman sitting by her still-to-be erected home. She estimates it will be another 4 years until completion, her husband earning 50 000 rupiah a day fishing. A little less than $4. The villagers help in the construction of her home, but material costs will still need to be accounted for. She explains one-hundred-million rupiah, or about $7000, is needed. For now she resides in a home that’s about to fall apart.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 17:00:00 +0700</pubDate>
+        <link>
+        http://localhost:4000/adventures-festival-tanjung-isuy</link>
+        <guid isPermaLink="true">http://localhost:4000/adventures-festival-tanjung-isuy</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Tarakan, Capital Northern Kalimantan</title>
+        
+          <description>&lt;p&gt;Indeed, as I had been warned there weren’t a whole lot of things going on in Malinau and it was with an eagerness I was getting on the boat to Tarakan, capital of the north, a boat ride from which I came. Funnily, a capital situated on an island outside of Kalimantan island.&lt;/p&gt;
+
+&lt;p&gt;It’s always with an excitement I learn how I’m greeted at a destination’s entry point, be it an airport or dock. I find it says much about the culture one’s visiting. It’s a relief when they’re not being too aggressive in their attempts to offer me “help”. In the case of Tarakan, I learnt they were mostly friendly.&lt;/p&gt;
+
+&lt;p&gt;I succeed in finding a motorbike from one of the employees working at the accommodation I’m staying at. I take it for a ride to see what’s on offer, coming across a good bit of friendly, local life curious to see a white man.&lt;/p&gt;
+
+&lt;p&gt;In the evening as I stop by a food center, a young man  approaches me. He’s a speaker of English, one of few and has come from Java to work. As I’m told, the more central islands of Indonesia is a overcrowded, so many find themselves on the move to other islands in search of easier lives. An occurrence that have been going on for some time, referred to as transmigration; in turn a source for tensions arising between various ethnic groups.&lt;/p&gt;
+
+&lt;p&gt;We agree to go sightseeing the following day. He takes me to see some of the popular spots of Tarakan as well as to the local university. It was interesting to see the conditions and observe more the ways things function at this level of society.&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 27 Jul 2017 17:00:00 +0700</pubDate>
+        <link>
+        http://localhost:4000/tarakan-northern-kalimantan</link>
+        <guid isPermaLink="true">http://localhost:4000/tarakan-northern-kalimantan</guid>
+      </item>
+      
+    
   </channel>
 </rss>

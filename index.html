@@ -1,13 +1,3 @@
-<<<<<<< HEAD
----
-layout: default
-current: home
-class: 'home-template'
-navigation: True
----
-
-<!-- < default -->
-=======
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,14 +18,14 @@ navigation: True
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
     <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
-    <!-- highlight.js -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css"/>
     <style>.hljs { background: none; }</style>
 
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Scribbles & Images from the Road" />
-    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="/" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -43,14 +33,14 @@ navigation: True
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Traveler Thomas" />
     <meta property="og:description" content="Scribbles & Images from the Road" />
-    <meta property="og:url" content="/" />
-    <meta property="og:image" content="/assets/images/blog-cover.jpg" />
+    <meta property="og:url" content="http://localhost:4000/" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/thomas.byee" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Traveler Thomas" />
     <meta name="twitter:description" content="Scribbles & Images from the Road" />
-    <meta name="twitter:url" content="/" />
-    <meta name="twitter:image" content="/assets/images/blog-cover.jpg" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/blog-cover.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Traveler Thomas" />
     <meta name="twitter:site" content="@tryghost" />
@@ -65,18 +55,18 @@ navigation: True
     "publisher": {
         "@type": "Organization",
         "name": "Traveler Thomas",
-        "logo": "/assets/images/blog-icon.png"
+        "logo": "http://localhost:4000/assets/images/blog-icon.png"
     },
-    "url": "/",
+    "url": "http://localhost:4000/",
     "image": {
         "@type": "ImageObject",
-        "url": "/assets/images/blog-cover.jpg",
+        "url": "http://localhost:4000/assets/images/blog-cover.jpg",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/"
+        "@id": "http://localhost:4000/"
     },
     "description": "Scribbles & Images from the Road"
 }
@@ -100,26 +90,10 @@ navigation: True
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
         <!-- < default -->
->>>>>>> ca32d8cfb2780e48467d3d682c0aada5de97e40a
 <!-- The tag above means: insert everything in this file
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<<<<<<< HEAD
-<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url({{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                {% if site.logo %}
-                    <img class="site-logo" src="{{ site.baseurl }}{{ site.logo }}" alt="{{ site.title }}"/>
-                {% else %}
-                    {{ site.title }}
-                {% endif %}
-            </h1>
-            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
-        </div>
-        {% include site-nav.html %}
-=======
 <header class="site-header outer " style="background-image:  url(/assets/images/blog-cover.jpg) ">
     <div class="inner">
         <div class="site-header-content">
@@ -160,7 +134,6 @@ into the {body} of the default.hbs template -->
     </div>
 </nav>
 
->>>>>>> ca32d8cfb2780e48467d3d682c0aada5de97e40a
     </div>
 </header>
 
@@ -170,10 +143,45 @@ into the {body} of the default.hbs template -->
 
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-<<<<<<< HEAD
-            {%  include post-card.html %}
-=======
             
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/sri-lanka-itinerary">
+                <div class="post-card-image" style="background-image: url(/assets/images/lanka/cover.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/sri-lanka-itinerary">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Sri lanka</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">30 days in Sri Lanka</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>30 days in Lanka. Itinerary. Sri Lanka, previously known as Ceylon and a Portuguese, Dutch and British colony before it fell into the hands of the island’s majority group, the Sinhalese, some 7</p>
+                </section>
+            </a>
+            <!---<footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/thomas/">Thomas Bye</a>
+                        </span>
+                    
+                
+            </footer>-->
+        </div>
+    </article>
+
     <article class="post-card home-template">
         
             <a class="post-card-image-link" href="/north-kalimantan">
@@ -197,18 +205,18 @@ into the {body} of the default.hbs template -->
                     <p>As much as I enjoyed my time in Kalimantan Timur, the island’s Eastern part, it was time to move on. Locals from whence I came, warned there really weren’t a lot of things</p>
                 </section>
             </a>
-            <footer class="post-card-meta">
+            <!---<footer class="post-card-meta">
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/images/hannah.jpg" alt="Thomas Bye" />
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
                         
                         <span class="post-card-author">
                             <a href="/author/thomas/">Thomas Bye</a>
                         </span>
                     
                 
-            </footer>
+            </footer>-->
         </div>
     </article>
 
@@ -235,18 +243,18 @@ into the {body} of the default.hbs template -->
                     <p>A trip to the Malaysian side of Borneo in June, sparked an interest for this island of human and cultural diversity. Not long after, I was entering the Indonesian side of the island,</p>
                 </section>
             </a>
-            <footer class="post-card-meta">
+            <!---<footer class="post-card-meta">
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/images/hannah.jpg" alt="Thomas Bye" />
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
                         
                         <span class="post-card-author">
                             <a href="/author/thomas/">Thomas Bye</a>
                         </span>
                     
                 
-            </footer>
+            </footer>-->
         </div>
     </article>
 
@@ -273,18 +281,18 @@ into the {body} of the default.hbs template -->
                     <p>Visiting the ERAU festival in Tenggarong, Kalimantan Timur I’d heard of a UNESCO endorsed festival coming up, in the eastern parts of Kalimantan and was on my way there to find out what</p>
                 </section>
             </a>
-            <footer class="post-card-meta">
+            <!---<footer class="post-card-meta">
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/images/hannah.jpg" alt="Thomas Bye" />
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
                         
                         <span class="post-card-author">
                             <a href="/author/thomas/">Thomas Bye</a>
                         </span>
                     
                 
-            </footer>
+            </footer>-->
         </div>
     </article>
 
@@ -311,18 +319,56 @@ into the {body} of the default.hbs template -->
                     <p>Returning to Balikpapan, I had already been here a few times in transit. This time with the intention of spending a couple of nights. As I discovered, this was rather backpacker friendly destination.</p>
                 </section>
             </a>
-            <footer class="post-card-meta">
+            <!---<footer class="post-card-meta">
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/images/hannah.jpg" alt="Thomas Bye" />
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
                         
                         <span class="post-card-author">
                             <a href="/author/thomas/">Thomas Bye</a>
                         </span>
                     
                 
-            </footer>
+            </footer>-->
+        </div>
+    </article>
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/samarinda">
+                <div class="post-card-image" style="background-image: url(/assets/images/tarakan/islamic-center-tarakan.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/samarinda">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Kalimantan</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Samarinda</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>Having flown into Pontianak a few days prior, greeted by a visible and foul smelling smog, I was was not sure what expected me in Samarinda. I was on my way there to</p>
+                </section>
+            </a>
+            <!---<footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/thomas/">Thomas Bye</a>
+                        </span>
+                    
+                
+            </footer>-->
         </div>
     </article>
 
@@ -343,35 +389,70 @@ into the {body} of the default.hbs template -->
                         
                     
 
-                    <h2 class="post-card-title">Dayak Festival and Adventure in Tanjung Isuy</h2>
+                    <h2 class="post-card-title">Dayak Festival and Adventures in Tanjung Isuy</h2>
                 </header>
                 <section class="post-card-excerpt">
-                    <p>Road Trip to Tanjung Isuy Word was out, a festival underway, by the Dayaks, drawing me on road trip to the interiors of Kalimantan along with my newfound friends from Samarinda. Name of</p>
+                    <p>Road Trip to Tanjung Isuy Word was out, a festival underway, by the Dayaks, drawing me on road trip to the Kalimantan interiors along with my newfound friends from Samarinda. Name of village</p>
                 </section>
             </a>
-            <footer class="post-card-meta">
+            <!---<footer class="post-card-meta">
                 
                     
                         
-                        <img class="author-profile-image" src="/assets/images/hannah.jpg" alt="Thomas Bye" />
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
                         
                         <span class="post-card-author">
                             <a href="/author/thomas/">Thomas Bye</a>
                         </span>
                     
                 
-            </footer>
+            </footer>-->
+        </div>
+    </article>
+
+    <article class="post-card home-template">
+        
+            <a class="post-card-image-link" href="/tarakan-northern-kalimantan">
+                <div class="post-card-image" style="background-image: url(/assets/images/tarakan/islamic-center-tarakan.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/tarakan-northern-kalimantan">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Kalimantan</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">Tarakan, Capital Northern Kalimantan</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    <p>Indeed, as I had been warned there weren’t a whole lot of things going on in Malinau and it was with an eagerness I was getting on the boat to Tarakan, capital of</p>
+                </section>
+            </a>
+            <!---<footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/thomas.jpg" alt="Thomas Bye" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/thomas/">Thomas Bye</a>
+                        </span>
+                    
+                
+            </footer>-->
         </div>
     </article>
 
 
->>>>>>> ca32d8cfb2780e48467d3d682c0aada5de97e40a
         </div>
 
     </div>
 </main>
-<<<<<<< HEAD
-=======
 
 
         <!-- Previous/next page links - displayed on every page -->
@@ -380,7 +461,7 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="/">Traveler Thomas</a> &copy; 2018</section>
+                <section class="copyright"><a href="http://localhost:4000/">Traveler Thomas</a> &copy; 2018</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
@@ -398,12 +479,12 @@ into the {body} of the default.hbs template -->
     
 
     <!-- highlight.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
     <script>$(document).ready(function() {
       $('pre code').each(function(i, block) {
         hljs.highlightBlock(block);
       });
-    });</script>
+    });</script> -->
 
     <!-- jQuery + Fitvids, which makes all video embeds responsive -->
     <script
@@ -411,8 +492,9 @@ into the {body} of the default.hbs template -->
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script>
+
 
 
     <!-- Paginator increased to "infinit" in _config.yml -->
@@ -445,7 +527,6 @@ into the {body} of the default.hbs template -->
 
     <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
     <!-- ghost_foot -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
 </body>
 </html>
->>>>>>> ca32d8cfb2780e48467d3d682c0aada5de97e40a
